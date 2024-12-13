@@ -5,8 +5,8 @@ This repository demonstrates proficiency in **Angular**, **C#**, **Bootstrap**, 
 ## Features
 
 - **Angular Frontend**:
-  - Responsive design powered by **Bootstrap**.
-  - Integration with the **PokeAPI** to display Pokémon data dynamically.
+  - Responsive design powered by [**Bootstrap**](https://getbootstrap.com/) and [**Angular**](https://angular.dev/).
+  - Integration with the [**PokeAPI**](https://pokeapi.co) to display Pokémon data dynamically.
   - Organized component-based architecture.
   
 - **C# Backend**:
@@ -40,47 +40,8 @@ This repository demonstrates proficiency in **Angular**, **C#**, **Bootstrap**, 
 
 - **Node.js**: For Angular CLI and frontend dependencies.
 - **.NET SDK**: To run and develop the backend.
-- **SQL Server**: For ASP.NET Core Identity data storage (or another supported database).
 - **Angular CLI**: For managing and building the Angular frontend.
 
-## Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/angular-csharp-competency-project.git
-   cd angular-csharp-competency-project
-   ```
-
-2. **Backend Setup**:
-   - Navigate to the backend project folder:
-     ```bash
-     cd Backend
-     ```
-   - Update the `appsettings.json` file with your database connection string.
-   - Apply database migrations:
-     ```bash
-     dotnet ef database update
-     ```
-   - Run the backend:
-     ```bash
-     dotnet run
-     ```
-
-3. **Frontend Setup**:
-   - Navigate to the Angular project folder:
-     ```bash
-     cd Frontend
-     ```
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Run the Angular development server:
-     ```bash
-     ng serve
-     ```
-
-4. Open a web browser and navigate to `http://localhost:4200`.
 
 ## Usage
 
