@@ -1,0 +1,7 @@
+@PokemonAngular.Server_HostAddress = http://localhost:5205
+
+GET {{PokemonAngular.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+###
+GET {{PokemonAngular.Server_HostAddress}}/pokemonapi/
+Accept: application/json
