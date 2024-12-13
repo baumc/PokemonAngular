@@ -16,10 +16,12 @@ This repository demonstrates proficiency in **Angular**, **C#**, **Bootstrap**, 
 - **API Integration**:
   - Fetches data from the **PokeAPI** using HTTP client services in Angular.
   - Displays Pokémon details (e.g., name, type, abilities).
+  - [**Swagger**](https://aka.ms/aspnetcore/swashbuckle) for API documentation/reference
 
 - **Authentication**:
   - Users can register, log in, and log out securely.
   - Password hashing and role-based access control using **ASP.NET Core Identity**.
+
 
 ## Technology Stack
 
@@ -42,6 +44,20 @@ This repository demonstrates proficiency in **Angular**, **C#**, **Bootstrap**, 
 - **.NET SDK**: To run and develop the backend.
 - **Angular CLI**: For managing and building the Angular frontend.
 
+## Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/angular-csharp-competency-project.git
+   cd angular-csharp-competency-project
+   ```
+
+2. **Open project in Visual Studio**
+
+3. **Start project**
+	- Node.JS used to start Angular frontend
+	- .NET backend starts
+	- application will open in browser, as well as swagger UI for API documentation
 
 ## Usage
 
